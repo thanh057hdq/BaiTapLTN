@@ -1,0 +1,42 @@
+void setup() {
+  pinMode(13,OUTPUT);
+  pinMode(12,OUTPUT);
+  pinMode(11,OUTPUT);
+  pinMode(10,OUTPUT);
+}
+void TatLed()
+{
+  delay(500);
+  digitalWrite(13,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,LOW);
+}
+void loop() 
+{
+  TatLed();
+  digitalWrite(13,HIGH);
+  TatLed();
+  digitalWrite(12,HIGH);
+  TatLed();
+  digitalWrite(13,HIGH);
+  digitalWrite(12,HIGH);
+  TatLed();
+  digitalWrite(11,HIGH);
+  TatLed();
+  digitalWrite(11,HIGH);
+  digitalWrite(13,HIGH);
+  TatLed();
+  digitalWrite(11,HIGH);
+  digitalWrite(12,HIGH);
+  TatLed();
+  digitalWrite(11,HIGH);
+  digitalWrite(12,HIGH);
+  digitalWrite(13,HIGH);
+  TatLed();
+  digitalWrite(10,HIGH);
+  TatLed();
+  digitalWrite(10,HIGH);
+  digitalWrite(13,HIGH);
+  TatLed();
+}
